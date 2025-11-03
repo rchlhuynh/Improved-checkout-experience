@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Improved Checkout Experience</title>
+    <link rel="stylesheet" href="checkout.css">
+  </head>
+  <body>
+    <h1>Review your order</h1>
+    <button class="guest-checkout-option">Checkout as Guest</button>
+    <div class="main">
+      <div class="checkout-grid">
+        <div class="product-list">
+          <div class="checkout-container"></div>
+          <div class="order-summary"></div>
+          <div class="message"></div>
+        </div>
+
+        <div class="payment-summary">
+          <div class="payment-summary-title">
+            Order Summary
+          </div>
+
+          <div class="payment-summary-row subtotal-row">
+            <div>Items total:</div>
+            <div class="payment-summary-money subtotal-amount">$1,176.00</div>
+          </div>
+
+          <div class="payment-summary-row">
+            <div>Shipping &amp; handling:</div>
+            <div class="payment-summary-money shipping-amount">$0.00</div>
+          </div>
+
+          <div class="payment-summary-row">
+            <div>Estimated tax (10%):</div>
+            <div class="payment-summary-money tax-amount">$0.00</div>
+          </div>
+
+          <div class="payment-summary-row total-row">
+            <div>Order total:</div>
+            <div class="payment-summary-money order-total">$0.00</div>
+          </div>
+
+          <button class="place-order-button button-primary">
+            Place your order
+          </button>
+        </div>
+      </div>
+
+      <div class="message"></div>
+      <div class="js-order-summary"></div>
+    </div>
+
+    <script type="module" src="scripts/checkout.js"></script>
+  </b
